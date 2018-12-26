@@ -25,7 +25,7 @@ export default class AddReceita extends Component{
 
 	add(){
 		let data = new Date(); 
-		let dataFormatada = data.toLocaleDateString();
+		let dataFormatada = data.getDate()+'/'+(data.getMonth()+1)+'/'+data.getFullYear();
 		if (this.state.valor !='') {
 
 			//ou pode ser feito assim

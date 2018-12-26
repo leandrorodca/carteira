@@ -77,12 +77,12 @@ export default class Interna extends Component{
 				<View style={styles.container}>
 					<View style={styles.header}>
 						<View style={styles.nome}>
-							<Text style={styles.txt}>Usuário: {this.state.nome} </Text>
+							<Text style={styles.txt}>User: {this.state.nome} </Text>
 						</View>
 						<View style={styles.saldo}>
 
 							
-							<Button title="Sair" onPress={this.sair}/>
+							<Button title="X" onPress={this.sair}/>
 						</View>
 						
 						
@@ -95,12 +95,12 @@ export default class Interna extends Component{
 					/>
 					
 					<View style={styles.saldo}>
-						<Text style={styles.txt}> Saldo atual: R$ {this.state.saldo} </Text>
+						<Text style={styles.txt}> Residual: R$ {this.state.saldo} </Text>
 					</View>
 				
 					<View style={styles.botoesArea}> 
-						<Button title="+ Receita" onPress={this.addReceita} color='green'/>
-						<Button title="+ Despesa" onPress={this.addDespesa} color='red'/>
+						<Button title="+ Receita" onPress={this.addReceita} color='#00FFBF'/>
+						<Button title="+ Despesa" onPress={this.addDespesa} color='#F5A9A9'/>
 						
 					</View>
 				</View>

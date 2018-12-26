@@ -22,7 +22,7 @@ export default class AddDespesa extends Component{
 
 	add(){
 		let data = new Date(); 
-		let dataFormatada = data.toLocaleDateString();
+		let dataFormatada = data.getDate()+'/'+(data.getMonth()+1)+'/'+data.getFullYear();
 		if (this.state.valor !='') {
 
 			//ou pode ser feito assim
@@ -40,7 +40,7 @@ export default class AddDespesa extends Component{
 
 				type:'despesa',
 				valor:parseFloat(this.state.valor).toFixed(2),
-				data:dataFormatada
+				today:dataFormatada
 
 			});
 

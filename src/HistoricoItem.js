@@ -6,10 +6,10 @@ export default class HistoricoItem extends Component{
 
 	constructor(props) {
 	  super(props);
-		let bg = '#00FF00';
+		let bg = '#00FFBF';
 		let sinal = '+';
 		if (this.props.data.type == 'despesa') {
-			bg = '#FF0000';
+			bg = '#F5A9A9';
 			sinal = '-';
 		}
 	  this.state = {
