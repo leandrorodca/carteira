@@ -5,5 +5,4 @@ App construído em react-native e Firebase(Authentication e DataBase) para contr
   <img src="cadastro.png" height="600" alt="Tela de cadastro"/>
 <img src="login.png" height="600" alt="Tela de Login"/>
 <img src="app.png" height="600" alt="Tela do App"/>
-<img src="interna.png" height="600" alt="Tela de Interna"/>
 </div>
